@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><style>
+#container {
+  width: 200px;
+  height: 200px;
+  background: green;
+  position: relative;
+}
+#box {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+}
+</style>
     <meta charset="UTF-8">
     <title>JS</title>
 </head>
 <body>
+
+<div>
+   <button onclick="prev()"> Prev </button>
+  <img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg"
+    width="200px" height="100px"/>
+    <button onclick="next()"> Next </button>
+</div>
+<div id="container">
+            <div id="box"> </div>
+        </div>
+<button id="butt">but</button>
+<div id="demo"><p>rrr</p></div>
 <script src="Javascript.js">
 </script>
 </body>
